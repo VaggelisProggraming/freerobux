@@ -1,0 +1,34 @@
+body {
+    background: linear-gradient(100deg, #FFC300 0%, #C70039 25%);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+
+.title {
+    color: #FFC300;
+    text-align: center;
+    height: 500px;
+    background-image: url(./free.bmp);
+}
+
+.info {
+    position: absolute;
+    bottom: 10%;
+    left: 50%;
+    height: 70px;
+    background-color: #f1f1f1;
+    color: black;
+    font-size: 16px;
+    padding: 16px 30px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    text-align: center;
+}
+.info:hover {
+    background-color: black;
+    color: white;
+}
+.info:active {
+    background-color: cornflowerblue;
+} 
